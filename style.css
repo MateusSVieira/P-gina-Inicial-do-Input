@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
+
+:root {
+    --grayscale100: #fff;
+    --grayscale200: #F5F4F6;
+    --grayscale300: #D6D4E2;
+    --grayscale400: #787490;
+    --grayscale500: #49445f;
+    --grayscale900: #18161F;
+    --greenwater: #00D9C0;
+}
+
+body {
+    font-family: 'Space Grotesk';
+    background: url(assets-desafio04-lvl02/fundo_codarme.png);
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 72px;
+    
+}
+
+.logo {
+    display: flex;
+    padding-top: 28px;
+}
+
+.userandbutton {
+    display: flex;
+    align-items: center;
+    color: var(--grayscale100);
+    
+}
+
+.userandbutton img {
+    margin-right: 10px;
+}
+
+.userandbutton p {
+    display: flex;
+    align-items: center; 
+}
+
+.userandbutton p > a {
+    display: flex;
+    align-items: center;
+}
+
+.inscricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 207px;
+    height: 56px;
+    border: 1px solid var(--grayscale500);
+    border-radius: 90px;
+    margin-left: 48px;   
+}
+
+main {
+    display: flex;
+    width: 100vw;
+}
+
+.content {
+    display: flex;
+    align-items: baseline;
+    margin-left: 75px;
+    color: var(--grayscale100);
+    margin-top: 50px;
+    margin-bottom: 25px;
+    
+}
+
+.content img {
+    margin-right: 19px;
+}
+
+.content p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px; 
+}
+
+main h1 {
+    color: var(--grayscale100);
+    margin-left: 72px;
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    width: 602px;
+    line-height: 64px;    
+}
+
+.paragraph {
+    margin-top: 32px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    width: 680px;
+    height: 78px;
+    color: var(--grayscale300);
+    margin-left: 72px;
+    line-height: 26px;
+}
+
+main a {
+    width: 194px;
+    height: 26px;
+    display: inline-block;
+    background: var(--greenwater);
+    color: var(--grayscale900);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    padding-block: 24px;
+    padding-inline: 48px;
+    border-radius: 90px;
+    margin-inline: 72px;
+    margin-top: 56px;
+}
+
+.bruno img {
+    margin-top: 50px;
+    margin-inline: 39px;
+    justify-content: flex-end;
+    
+}
+
